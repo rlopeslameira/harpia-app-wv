@@ -1,0 +1,32 @@
+.p-fluid .p-treeselect {
+    display: flex !important;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-highlight {
+    color: var(--primary-color);
+}
+
+.p-treeselect:not(.p-disabled).p-focus {
+    box-shadow: none;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content:focus {
+    box-shadow: none;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler {
+    color: var(--primary-color);
+    border: 1px solid;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content.p-treenode-selectable:not(.p-highlight):hover {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:enabled:hover {
+    background: rgba(99, 102, 241, 0.04);
+    color: var(--primary-color);
+    border: 1px solid;
+    border-color: var(--primary-color);
+}

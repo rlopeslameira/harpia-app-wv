@@ -1,0 +1,15 @@
+.thumbnail-wrapper {
+    cursor: pointer;
+    display:inline-block;
+    position:relative;
+}
+
+.thumbnail-wrapper button {
+    display: none;
+    position:absolute;
+    bottom: 0;
+}
+
+.thumbnail-wrapper:hover button{
+    display: block;
+}

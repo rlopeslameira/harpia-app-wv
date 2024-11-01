@@ -1,0 +1,18 @@
+.p-dialog .p-button.p-button-text {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color-border);
+    border-radius: 6px;
+}
+
+.p-dialog .p-button.p-button-text:enabled:hover,
+.p-dialog .p-button.p-button-text:not(button):not(a):not(.p-disabled):hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color-hover);
+    border: 1px solid var(--primary-color-border);
+}
+
+.p-dialog .p-button.p-button-text:enabled:active,
+.p-dialog .p-button.p-button-text:not(button):not(a):not(.p-disabled):active {
+    color: rgba(0, 0, 0, 0.54);
+    background: var(--secondary-color-hover);
+}

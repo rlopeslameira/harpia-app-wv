@@ -1,0 +1,126 @@
+.p-datatable .p-datatable-thead>tr>th {
+    background: var(--secondary-color);
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}
+
+.p-link:focus {
+    box-shadow: none;
+    background: var(--secondary-color-hover);
+}
+
+.p-paginator .p-dropdown {
+    height: auto;
+}
+
+.p-datatable .p-datatable-tbody>tr>td .p-row-toggler:focus,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-init:focus,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-save:focus,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-cancel:focus {
+    box-shadow: none;
+    background: var(--secondary-color-hover);
+}
+
+.p-datatable .p-datatable-tbody>tr>td .p-row-toggler:enabled:hover,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-init:enabled:hover,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-save:enabled:hover,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-cancel:enabled:hover {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color-hover);
+}
+
+
+.p-paginator .p-paginator-pages .p-paginator-page:not(.p-highlight):hover {
+    background: var(--secondary-color-hover);
+    box-shadow: none;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+    min-height: 2rem;
+    height: 2.5rem;
+}
+
+.p-paginator .p-paginator-first,
+.p-paginator .p-paginator-prev,
+.p-paginator .p-paginator-next,
+.p-paginator .p-paginator-last {
+    min-height: 2rem;
+    height: 2.5rem;
+
+}
+
+.p-paginator .p-paginator-first:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-prev:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-next:not(.p-disabled):not(.p-highlight):hover,
+.p-paginator .p-paginator-last:not(.p-disabled):not(.p-highlight):hover {
+    background: var(--secondary-color-hover);
+
+}
+
+.p-datatable .p-datatable-tbody>tr>td {
+    border: 1px solid var(--secondary-color-hover);
+}
+
+.p-datatable.p-datatable-selectable .p-datatable-tbody>tr.p-selectable-row:not(.p-highlight):not(.p-datatable-emptymessage):hover {
+    background: var(--secondary-color-hover);
+}
+
+.p-datatable .p-datatable-tbody>tr.p-highlight {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}
+
+.p-datatable.p-datatable-selectable .p-datatable-tbody>tr.p-selectable-row:focus {
+    outline: var(--primary-color);
+}
+
+.p-datatable .p-sortable-column.p-highlight {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}
+
+.p-datatable .p-sortable-column:focus {
+    box-shadow: none;
+}
+
+.p-datatable .p-sortable-column.p-highlight:not(.p-sortable-disabled):hover {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}
+
+.p-datatable .p-sortable-column:not(.p-highlight):not(.p-sortable-disabled):hover {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}
+
+
+.p-speeddial-action {
+    width: 2rem;
+    height: 2rem;
+}
+
+.display-button {
+    display: none !important;
+}
+
+.p-datatable .p-datatable-tbody>tr>td .p-row-toggler,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-init,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-save,
+.p-datatable .p-datatable-tbody>tr>td .p-row-editor-cancel {
+    height: 2rem;
+    width: 1.3rem;
+    color: var(--primary-color);
+    border: 0 none;
+    background: transparent;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    padding: 0;
+}
+
+.p-column-filter-overlay .p-column-filter-row-items .p-column-filter-row-item.p-highlight {
+    background: var(--secondary-color-hover);
+    color: var(--primary-color);
+}

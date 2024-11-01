@@ -1,0 +1,24 @@
+.p-fluid .p-multiselect {
+    display: flex !important;
+}
+
+.p-multiselect.p-multiselect-chip .p-multiselect-token {
+    color: var(--primary-color);
+}
+
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item.p-highlight {
+    color: var(--primary-color);
+}
+
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item:not(.p-highlight):not(.p-disabled):hover {
+    color: var(--primary-color);
+    background: var(--secondary-color-hover);
+}
+
+.p-multiselect:not(.p-disabled).p-focus {
+    box-shadow: none;
+}
+
+.p-multiselect-panel .p-multiselect-items .p-multiselect-item:focus {
+    box-shadow: none;
+}

@@ -1,0 +1,22 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.p-inputtext:enabled:focus {
+    box-shadow: none;
+    border-color: var(--primary-color-border);
+}
+
+.p-inputtext:enabled:hover {
+    border-color: var(--primary-color-border);
+}
+
+.p-inputtext.p-invalid.p-component {
+    border-color: #e24c4c;
+}

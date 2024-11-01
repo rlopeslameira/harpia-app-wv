@@ -1,0 +1,48 @@
+/* .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    background-color: #0772B3!important;
+    color: var(--primary-color-text);
+    border-radius: 0;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+    background: #0772B3!important;
+    border-color: var(--primary-color-border);
+    color: var(--primary-color-text);
+    border-radius: 0;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link span {
+    opacity: initial;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link span {
+    opacity: 0.7;
+}
+
+.p-tabview .p-tabview-nav .p-tabview-ink-bar {
+    background-color: #fff !important;
+}
+
+.p-tabview .p-tabview-nav {
+    background-color: #0772B3!important;
+    border: #0772B3!important;
+
+}
+
+
+
+
+
+.p-tabview-nav-container {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+
+} */
+
+.p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+    background-color: #0772B3!important;
+    color: var(--primary-color-text);
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+    box-shadow: none;
+}

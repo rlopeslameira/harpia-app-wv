@@ -1,0 +1,8 @@
+@keyframes p-progress-spinner-color {
+
+    100%,
+    0% {
+        stroke: var(--primary-color);
+    }
+
+}

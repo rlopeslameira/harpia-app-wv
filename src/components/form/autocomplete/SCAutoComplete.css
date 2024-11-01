@@ -1,0 +1,7 @@
+.p-autocomplete {
+    display: flex !important;
+}
+
+.p-autocomplete button {
+    height: 29px;
+}

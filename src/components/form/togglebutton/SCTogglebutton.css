@@ -1,0 +1,12 @@
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight),
+.p-togglebutton.p-button:not(.p-disabled):not(.p-highlight):hover {
+    color: var(--secondary-color-text);
+    background: var(--secondary-color);
+    border-color: var(--secondary-color-border);
+    border: 0.5px solid var(--primary-color-border);
+}
+
+.p-togglebutton.p-button.p-highlight,
+.p-togglebutton.p-button.p-highlight:hover {
+    background: var(--primary-color);
+}

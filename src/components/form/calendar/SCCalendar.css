@@ -1,0 +1,11 @@
+.p-calendar {
+    display: flex !important;
+}
+
+.p-calendar button {
+    height: 31px;
+}
+
+.p-fluid .p-button-icon-only {
+    width: 2.3rem;
+}

@@ -1,0 +1,9 @@
+.p-overlaypanel .p-overlaypanel-close {
+    background: var(--primary-color);
+    color: var(--primary-color-text);
+}
+
+.p-overlaypanel .p-overlaypanel-close:enabled:hover {
+    background: var(--primary-color-hover);
+    color: var(--primary-color-text);
+}

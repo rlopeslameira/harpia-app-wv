@@ -1,0 +1,17 @@
+.p-checkbox .p-checkbox-box.p-highlight {
+    border-color: var(--primary-color-border);
+    background: var(--primary-color);
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+    border-color: var(--primary-color-border);
+    background: var(--primary-color);
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+    border-color: var(--primary-color-border);
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus {
+    box-shadow: none;
+}

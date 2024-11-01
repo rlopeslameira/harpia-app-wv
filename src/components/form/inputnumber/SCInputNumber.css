@@ -1,0 +1,7 @@
+.p-fluid .p-inputnumber {
+    display: flex !important;
+}
+
+.p-fluid .p-inputnumber-icon-only {
+    width: 2rem;
+}
