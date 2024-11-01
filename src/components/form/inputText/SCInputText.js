@@ -25,7 +25,6 @@ const SCInputText = ({
     required,
     tarefa,
     labelClassName='',
-    className='',
     ...restProps
 }) => {
     

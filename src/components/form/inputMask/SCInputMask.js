@@ -20,7 +20,6 @@ const SCInputMask = ({
     control,
     errors = [],
     required,
-    className = '',
     iconClassName = '',
     labelClassName='',
     ...restProps

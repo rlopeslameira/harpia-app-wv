@@ -56,6 +56,7 @@ const SCPassword = ({
                         validate,
                     }}
                     render={({ field }) => (
+                        <div className="p-input-icon-right w-full" >
                         <Password
                             onFocus={handleFocus}
                             id={field.name}
@@ -70,6 +71,7 @@ const SCPassword = ({
                                 'p-invalid': errors[name],
                             })}`}
                         />
+                        </div>
                     )}
                 />
             ) : (

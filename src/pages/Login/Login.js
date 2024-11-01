@@ -106,6 +106,7 @@ const LoginScreen = () => {
               placeholder="Digite sua senha"
               toggleMask
               feedback={false}
+              className="w-full"
             />
           </div>
 
